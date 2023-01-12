@@ -1,0 +1,12 @@
+<h1>About Handlebars</h1>
+
+{{!-- memanggil data --}}
+<ul>
+    {{#each data}}
+        <li>
+            <h1>{{this.id}} . {{this.title}}</h1>
+            <p>{{this.content}}</p>
+        </li>
+    {{/each}}
+</ul>
+{{!-- memanggil data --}}
